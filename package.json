@@ -1,0 +1,29 @@
+{
+  "name": "map-demo",
+  "version": "0.0.1",
+  "description": "llamasoft map demo",
+  "main": "Map.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AxMari/LlamasoftMapDemo.git"
+  },
+  "keywords": [
+    "Map",
+    "llamasoft"
+  ],
+  "author": "Alexis Marien/ Llamasoft",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AxMari/LlamasoftMapDemo/issues"
+  },
+  "homepage": "https://github.com/AxMari/LlamasoftMapDemo#readme",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.1",
+    "jshint": "^2.9.2"
+  }
+}

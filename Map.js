@@ -18,8 +18,9 @@ var MapFcns = {
             airportCode = ctl.val();
             if(airportCode) {
                 var currAirport = _.findWhere(sites, {Code: airportCode});
-                $('#setting-code').text(currAirport.Code);
-                $('#setting-city').text(currAirport.City);
+                $('#setting-code').text('(' + currAirport.Code + ') ' + currAirport.PlainName);
+                $('#setting-city').text(currAirport.City + ", " +currAirport.State);
+                $('#setting-longlat').text("(" + currAirport.Longitude + ", " + currAirport.Latitude + ")");
                 
                 var marker = new google.maps.Marker({
                     position: {lat: currAirport.Latitude, lng: currAirport.Longitude},
