@@ -1,7 +1,7 @@
 #airport-settings {
-    width: calc(100% - 8px);
+    width: 750px;
     border: 2px solid black;
-    height: 55px;
+    height: 35px;
     padding: 4px;
     margin: 10px 14px 10px 0px;
 }
