@@ -18,6 +18,7 @@ var MapFcns = {
             airportCode = ctl.val();
             if(airportCode) {
                 var currAirport = _.findWhere(sites, {Code: airportCode});
+                $('#setting-city').text(currAirport.City + ", " + currAirport.State);
                 $('#setting-code').text('(' + currAirport.Code + ') ' + currAirport.PlainName);
                 $('#setting-longlat').text("(" + currAirport.Longitude + ", " + currAirport.Latitude + ")");
                 
